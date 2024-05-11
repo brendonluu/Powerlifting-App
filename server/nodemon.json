@@ -6,7 +6,7 @@
       "js": "node"
     },
     "watch": ["server/"],
-    "ext": "js,json",
+    "ext": "js,json,env",
     "ignore": ["node_modules/**/*"],
     "exec": "node --env-file=config.env server.js"
   }

@@ -1,0 +1,12 @@
+{
+  "name": "powerlifting-app",
+  "version": "1.0.0",
+  "description": "This Powerlifting Training Platform is designed to connect powerlifting coaches and athletes, providing a suite of tools to enhance training and performance. Features include a messaging and social system, a comprehensive library of exercises with video demonstrations, and customizable training programs organized into training blocks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
