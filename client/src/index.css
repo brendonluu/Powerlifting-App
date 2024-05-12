@@ -10,7 +10,8 @@
 *,
 *::before,
 *::after {
-  outline: 1px solid red; /* enable to debug */
+  /* enable to debug*/
+  outline: 1px dashed greenyellow;
   box-sizing: border-box;
 }
 
@@ -76,3 +77,5 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* begin global styles here */
