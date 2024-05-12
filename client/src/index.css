@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* default stylings from https://www.joshwcomeau.com/css/custom-css-reset/ */
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
 *,
 *::before,
 *::after {
+  outline: 1px solid red; /* enable to debug */
   box-sizing: border-box;
 }
 
