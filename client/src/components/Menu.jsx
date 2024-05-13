@@ -2,11 +2,9 @@ import './Menu.css'
 
 function Menu() {
   return (
-    <>
-      <h1>
-        Menu
-      </h1>
-    </>
+    <div className="Menu">
+      <h1>Menu</h1>
+    </div>
   )
 }
 

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <body>
+      <body className='App'>
         <Menu />
         <Dashboard />
       </body>

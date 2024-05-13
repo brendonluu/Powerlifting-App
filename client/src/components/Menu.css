@@ -1,0 +1,10 @@
+* {
+  --menu-width: 15rem;
+}
+
+.Menu {
+  display: flex;
+  background-color: #F8FFF4;
+  min-width: var(--menu-width);
+  height: calc(100vh - var(--header-height));
+}
