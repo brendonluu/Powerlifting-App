@@ -1,8 +1,11 @@
 import React from 'react'
+import './FitnessDisplay.css'
 
 function FitnessDisplay() {
   return (
-    <div>FitnessDisplay</div>
+    <div className='FitnessDisplay'>
+      FitnessDisplay
+    </div>
   )
 }
 

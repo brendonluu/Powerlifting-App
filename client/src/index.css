@@ -11,7 +11,7 @@
 *::before,
 *::after {
   /* enable to debug*/
-  outline: 1px dashed greenyellow;
+  /* outline: 1px dashed greenyellow; */
   box-sizing: border-box;
 }
 
@@ -21,6 +21,11 @@
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
+  --white: #f8fff4;
+  --black: #070600;
+  --primary: #b61634;
+  --secondary: #433840;
+  --tertiary: #448fda;
 }
 
 /*

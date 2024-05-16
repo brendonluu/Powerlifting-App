@@ -16,8 +16,7 @@
     position: relative;
     height: var(--header-height);
     padding: 0.5rem;
-
-    background: #B61634;
+    background: var(--primary);
 }
 
 .Logo {

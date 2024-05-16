@@ -1,8 +1,11 @@
 import React from 'react'
+import './NutritionDisplay.css'
 
 function NutritionDisplay() {
   return (
-    <div>NutritionDisplay</div>
+    <div className='NutritionDisplay'>
+      NutritionDisplay
+    </div>
   )
 }
 

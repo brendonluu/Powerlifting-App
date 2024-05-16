@@ -5,7 +5,7 @@
 
 .Menu {
   display: flex;
-  background-color: #F8FFF4;
+  background-color: var(--white);
   min-width: var(--menu-width);
   height: calc(100vh - var(--header-height));
 }
