@@ -1,5 +1,6 @@
 * {
     --header-height: 5rem;
+    --nav-padding: 0.5rem;
 }
 
 .header {
@@ -15,7 +16,7 @@
     justify-content: space-between;
     position: relative;
     height: var(--header-height);
-    padding: 0.5rem;
+    padding: var(--nav-padding);
     background: var(--primary);
 }
 

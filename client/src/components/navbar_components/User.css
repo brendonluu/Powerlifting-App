@@ -1,0 +1,7 @@
+.profilePicture {
+  height: 100%;
+}
+
+.profilePicture:hover {
+  cursor: pointer;
+}

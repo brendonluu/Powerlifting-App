@@ -1,0 +1,16 @@
+.UserDropdown {
+  background-color: var(--primary);
+  padding: 0.5rem;
+  position: absolute;
+  width: auto;
+  top: 0%;
+  left: 100%;
+  transform: translateX(calc(-100% - var(--nav-padding))) translateY(calc(var(--header-height) + var(--nav-padding)));
+}
+
+.UserDropdownItem {
+  color: var(--white);
+  text-align: right;
+  text-wrap: nowrap;
+  padding: 0.5rem;
+}
