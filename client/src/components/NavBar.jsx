@@ -1,15 +1,12 @@
-import { NavLink } from "react-router-dom"
-import logo from "./../assets/tempLogo.png"
 import './NavBar.css'
+import { NavLink } from "react-router-dom"
+import { useAuth } from "../contexts/AuthContext"
+import logo from "./../assets/tempLogo.png"
 import User from "./navbar_components/User"
-import { useState } from "react"
 
 function NavBar() {
-   const [loggedIn, setLoggedIn] = useState(false)
+   const { loggedIn, logIn } = useAuth();
 
-   const logIn = () => {
-      setLoggedIn(current => true)
-   }
    return (
       <header className="header">
          <nav className="navContainer">
@@ -19,7 +16,7 @@ function NavBar() {
             {
                loggedIn
                   ? <User />
-                  : <button className="logIn" onClick={logIn}>Log In</button>
+                  : <button className="logIn" onClick={logIn}>Sign In</button>
             }
          </nav>
       </header>

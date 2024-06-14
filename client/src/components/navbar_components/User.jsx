@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
-import pfp from './../../assets/Default_pfp.svg'
 import './User.css'
+import { useEffect, useState } from 'react'
 import UserDropdown from './UserDropdown'
+import pfp from './../../assets/Default_pfp.svg'
 
 function User() {
   const [menuState, setMenuState] = useState(false)

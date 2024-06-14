@@ -23,3 +23,13 @@
 .Logo {
     height: 100%;
 }
+
+.logIn {
+    padding: 0.5rem;
+    color: var(--white);
+    font-size: x-large;
+}
+
+.logIn:hover {
+    background-color: var(--tertiary);
+}

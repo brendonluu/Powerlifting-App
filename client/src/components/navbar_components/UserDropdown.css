@@ -10,7 +10,13 @@
 
 .UserDropdownItem {
   color: var(--white);
+  font-size: x-large;
   text-align: right;
   text-wrap: nowrap;
   padding: 0.5rem;
+}
+
+.UserDropdownItem:hover {
+  cursor: pointer;
+  background: var(--tertiary);
 }
