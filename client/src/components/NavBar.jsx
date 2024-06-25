@@ -1,22 +1,27 @@
 import './NavBar.css'
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { useAuth } from "../contexts/AuthContext"
 import logo from "./../assets/tempLogo.png"
 import User from "./navbar_components/User"
 
 function NavBar() {
-   const { loggedIn, logIn } = useAuth();
+   const { loggedIn } = useAuth();
 
    return (
       <header className="header">
          <nav className="navContainer">
-            <NavLink to='/' className="Logo">
+            <Link to='/' className="Logo">
                <img className="Logo" src={logo} alt="Name" />
-            </NavLink>
+            </Link>
             {
                loggedIn
                   ? <User />
-                  : <button className="logIn" onClick={logIn}>Sign In</button>
+                  :
+                  <Link to="/login">
+                     <button className="logIn">
+                        Sign In
+                     </button>
+                  </Link>
             }
          </nav>
       </header>
