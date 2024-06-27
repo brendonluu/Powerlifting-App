@@ -17,7 +17,7 @@ function NavBar() {
                loggedIn
                   ? <User />
                   :
-                  <Link to="/login">
+                  <Link to="/signin">
                      <button className="logIn">
                         Sign In
                      </button>
