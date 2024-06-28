@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <NavBar />
-      <body className='App'>
+      <div className='App'>
         <Menu />
         <Dashboard />
-      </body>
+      </div>
     </>
   )
 }

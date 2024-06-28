@@ -1,19 +1,38 @@
-.SignInContainer {
+.signIn-container {
   background-color: var(--white);
   height: 50vh;
-  width: 50vh;
+  width: 50vw;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-.SignInTitle {
+.signIn-back-button-wrapper {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.signIn-back-button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--black);
+  transition: 0.25s;
+}
+
+.signIn-back-button:hover {
+  background-color: var(--tertiary);
+  color: var(--white);
+}
+
+.signIn-title {
   font-size: xx-large;
 }
 
-.LogInForm {
+.signIn-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +40,7 @@
   padding: 1rem;
 }
 
-.LogInField {
+.signIn-text-input {
   background-color: var(--secondary);
   padding: 0.5rem;
   margin: 0.5rem;
@@ -29,16 +48,14 @@
   color: var(--tertiary);
 }
 
-.SignInButton {
-  background-color: var(--tertiary);
+.signIn-signIn-button {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  color: var(--white);
+  color: var(--black);
   transition: 0.25s;
 }
 
-.SignInButton:hover {
-  transform: scale(1.1);
-  margin: 0.05rem 0.05rem -0.1rem 0.05rem ;
-  cursor: pointer;
+.signIn-signIn-button:hover {
+  background-color: var(--tertiary);
+  color: var(--white);
 }

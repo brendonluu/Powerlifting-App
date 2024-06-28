@@ -3,9 +3,49 @@
   --button-size: 1rem;
 }
 
-.Menu {
+.menu {
   display: flex;
   background-color: var(--white);
   min-width: var(--menu-width);
   height: calc(100vh - var(--header-height));
+  position: relative;
+}
+
+.menu-close-button-wrapper {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.menu-close-button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: var(--black);
+  transition: 0.25s;
+}
+
+.menu-close-button:hover {
+  background-color: var(--tertiary);
+  color: var(--white);
+}
+
+.menu-open-button-wrapper {
+  position: absolute;
+  left: 0.5rem;
+  top: calc(var(--header-height) + 0.5rem);
+}
+
+.menu-open-button {
+  background-color: var(--white);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: var(--black);
+  transition: 0.25s;
+}
+
+.menu-open-button:hover {
+  background-color: var(--tertiary);
+  color: var(--white)
 }

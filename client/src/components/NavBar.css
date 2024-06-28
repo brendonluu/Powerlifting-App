@@ -18,18 +18,19 @@
     height: var(--header-height);
     padding: var(--nav-padding);
     background: var(--primary);
+    box-shadow: 0 -0.5rem 2rem 0.5rem var(--black);
 }
 
 .Logo {
     height: 100%;
 }
 
-.logIn {
+.signIn {
     padding: 0.5rem;
     color: var(--white);
     font-size: x-large;
 }
 
-.logIn:hover {
+.signIn:hover {
     background-color: var(--tertiary);
 }

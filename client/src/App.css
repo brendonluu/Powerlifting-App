@@ -2,6 +2,7 @@ body {
     background-image: radial-gradient(var(--tertiary) 0.75px, var(--secondary) 0.75px);
     animation: gradient 120s linear infinite;
     background-size: 1rem 1rem;
+    z-index: -1;
 }
 
 @keyframes gradient {

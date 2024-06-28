@@ -18,7 +18,7 @@ function NavBar() {
                   ? <User />
                   :
                   <Link to="/signin">
-                     <button className="logIn">
+                     <button className="signIn">
                         Sign In
                      </button>
                   </Link>
