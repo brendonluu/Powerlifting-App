@@ -15,7 +15,7 @@ body {
     }
 }
 
-.App {
+.main {
     display: flex;
     flex-direction: row;
 }

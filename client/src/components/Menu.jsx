@@ -23,11 +23,11 @@ function Menu() {
             </button>
           </div>
         </div>
-        : 
+        :
         <div className="menu-open-button-wrapper">
           <button className="menu-open-button" type="button" onClick={changeMenuState}>☰</button>
         </div>
-        }
+      }
     </>
   )
 }

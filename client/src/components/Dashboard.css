@@ -1,4 +1,4 @@
 .Dashboard {
   display: flex;
-  width: calc(100vw - var(--menu-width));
+  flex: 1;
 }
